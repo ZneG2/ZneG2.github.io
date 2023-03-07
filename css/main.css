@@ -212,8 +212,14 @@ header {
 .banner__img {
   position: absolute;
   top: 1;
+  margin-right: 20%;
   right: 0;
   z-index: -1;
+  max-width: 25%;
+  border-radius: 50px;
+  box-shadow: 5px 5px 20px rgb(14, 1, 1);
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .banner__heading {
@@ -387,7 +393,6 @@ header {
 
 .works__img--single {
   margin: 3em 0;
-  width: 100%;
 }
 
 .works__img--single:nth-child(odd) {
